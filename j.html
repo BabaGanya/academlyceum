@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+ <title>Идентификаторы</title>
+<style>
+#nav{
+font-family:'Open Sans', arial;
+}
+#nav li{
+float:left; /* всі посилання йдуть зліва на право */
+position:relative;
+list-style: none; /* прибираємо точки */
+background: #ff3131;
+width:190px;
+}
+#nav a{
+text-decoration: none;
+display:block; /* робимо блоковими елементи тезі "a" */
+padding:35px 65px;
+color:#ffffff;
+}
+#active a, #nav li:hover > a {
+background: # b32424;
+}
+#nav ul {
+visibility:hidden; /* приховуємо меню, що випадає */
+padding:0;
+position:absolute;
+}
+#nav li:hover > ul{
+visibility:visible; /* показуємо випадаюче меню при наведенні */
+position: relative;
+}
+#nav ul a{
+padding:18.5px 65px; /* робимо відступи меню, що випадає, менше від 
+основного */
+}
+#nav ul li:hover{
+background:#d92a2a;
+}
+#nav li:first-child:hover > ul{
+left: 0px; /* при наведенні на перший елемент щоб не з'їжджало меню, що 
+випадає */
+}
+#nav > li {
+border-right: 2px solid #d92a2a; /* додаємо рамку до основного меню 
+праворуч */
+}
+#nav > li:last-child{
+border-right: none; /*прибираємо рамку праворуч основного меню */
+}
+#nav > li ul li {
+border-left: 2px solid #d92a2a; /* додаємо рамку до меню, що випадає 
+зліва */
+border-right:2px solid #d92a2a; /* додаємо рамку до меню, що випадає 
+праворуч */
+}
+#nav li:first-child ul li,#nav li:first-child ul{
+border-left: none; /* прибираємо рамку у меню, що випадає зліва */
+}
+#nav li:last-child ul li,#nav li:last-child ul{
+border-right: none; /* прибираємо рамку у меню, що випадає праворуч */
+}
+#nav li:hover > ul{
+left: -2px; /* зміщуємо випадаюче меню ліворуч від розміру рамки*/
+</style>
+</head>
+<body> 
+<ul id="nav">
+<li>
+<a href="http://google.com">yes</a>
+<ul>
+<li><a href="http://google.com">yes</a></li>
+<li><a href="http://google.com">yes</a></li>
+<li><a href="http://google.com">yes</a></li>
+<li><a href="http://google.com">yes</a></li>
+</ul>
+</li>
+<li>
+<a href="http://google.com">yes</a>
+<ul>
+<li><a href="http://google.com">yes</a></li>
+<li><a href="http://google.com">yes</a></li>
+<li><a href="http://google.com">yes</a></li>
+<li><a href="http://google.com">yes</a></li>
+</ul>
+</li>
+<li>
+<a href="http://google.com">yes</a>
+<ul>
+<li><a href="http://google.com">yes</a></li>
+<li><a href="http://google.com">yes</a></li>
+<li><a href="http://google.com">yes</a></li>
+<li><a href="http://google.com">yes</a></li>
+</ul>
+</li>
+<li>
+<a href="http://google.com">yes</a>
+<ul>
+<li><a href="http://google.com">yes</a></li>
+<li><a href="http://google.com">yes</a></li>
+<li><a href="http://google.com">yes</a></li>
+<li><a href="http://google.com">yes</a></li>
+</ul>
+</li>
+<li>
+<a href="http://google.com">yes</a>
+<ul>
+<li><a href="http://google.com">yes</a></li>
+<li><a href="http://google.com">yes</a></li>
+<li><a href="http://google.com">yes</a></li>
+<li><a href="http://google.com">yes</a></li>
+</ul>
+</li>
+</ul>
+</body> 
+</html>
