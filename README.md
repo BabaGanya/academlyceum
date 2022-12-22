@@ -8,7 +8,7 @@ h1.nice{
 #refreshing{
     position: absolute; 
     left: 0px;
-    top: 30px;
+    top: 150px;
     width: 2000px;
     padding: 5px;
     background: #f0f0f0;
