@@ -1,4 +1,3 @@
-<!DOCTYPE html, css>
 <html lang="uk">
 <head>
 <title>menu</title>
