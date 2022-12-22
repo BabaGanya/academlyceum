@@ -35,10 +35,8 @@ position: relative;
 <a href="https://babaganya.github.io/academlyceum.github.io">Меню</a>
 <ul>
 <li><a href="https://babaganya.github.io/academlyceum.github.io/Галерея">Галерея</a></li>
-<li><a href="https://eschool-ua.com/#/"target="_blank">Єдина школа</a></li>
+<li><a href="https://eschool-ua.com/#/">Єдина школа</a></li>
 <li><a href="https://babaganya.github.io/academlyceum.github.io/Новини">Новини</a></li>
 <li><a href="https://babaganya.github.io/academlyceum.github.io/Статистика">Статистика</a></li>
 <li><a href="https://babaganya.github.io/academlyceum.github.io/Контакти">Контакти</a></li>
 </ul>
-</body>
-</html>
